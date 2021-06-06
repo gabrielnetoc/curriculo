@@ -1,0 +1,257 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+body{
+    background-color: #21262d;
+}
+
+
+
+h1, h4, span, p{
+    font-family: 'Lato', sans-serif;
+}
+
+
+#menu{
+    float: left;
+  /*  border: springgreen 1px solid; */
+    margin-top: 25px;
+    position: fixed;
+}
+
+#sections{
+    float: left;
+   /* border: #ff0000 1px solid;*/
+    margin-left: 300px;
+    margin-top: 25px;
+    
+}
+
+
+
+.author-content h4{
+
+   
+    margin: 5px 1px 0px 68px;
+    color: #e0e0e0;
+    font-size: 25px;
+    
+
+}
+.author-content h5{
+
+    margin-left: 80px;
+    color: #b4b4b4;
+    font-size: 10px;
+    margin-top: 5px;
+
+}
+
+#pic_profile{
+    border-radius: 100%;
+    height: 10em;
+    width: 10em;
+    margin-left: 61px;
+}
+
+.main-nav ul {
+    margin: 0;
+    padding: 5px;
+    list-style: none;
+    width: 280px;
+    }
+
+.main-nav li {
+    margin-bottom:3px;
+}
+
+.main-nav li a:hover { 	
+    color: rgb(255, 255, 255); 	
+    background-color:rgb(121, 121, 121);
+    }
+
+.main-nav li ul {
+        position: absolute;
+        left: 149px;
+        top: 0;
+        display: none;
+        
+    }
+
+.main-nav ul li a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        color: #e0e0e0;
+        background: #30363d;
+        padding: 5px;
+        border-radius: 5px;
+     }
+
+.main-nav li p{
+        font-family: 'Lato', sans-serif;
+
+     }
+
+#section1{
+    display: inline-block;
+    border: #e0e0e0 1px solid;
+    margin: auto 0%;
+    margin-left: 50px;
+}
+
+#habilidades{
+    display: inline-block;
+    border: springgreen 1px solid; 
+    
+}
+
+
+#animation{
+
+    margin-left: 200px;
+    width: 600px; 
+    height: 600px;
+
+}
+
+.social-network {
+    margin-top: 60px;
+    padding: 5px;
+}
+
+.social-network ul li {
+    margin: 5 3px;
+    list-style: none;
+    float: left;
+    padding-left: 5px;
+}
+
+.social-network ul li a {
+    width: 40px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(61, 61, 61, 0.2);
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.5s;
+    
+}
+
+.social-network ul li a:hover {
+    background-color: #fff;
+    color: #1d0003;
+}
+
+
+#animation_cont{
+    float: left;
+}
+
+#formas{
+    float: left;
+}
+
+
+
+.botton{
+    margin-top: 5px;
+    margin-left: 55px;
+    width: 200px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(61, 61, 61, 0.2);
+    color: #fff;
+    font-size: 14px;
+    border-bottom: none;
+    border-radius: 50px;
+    padding: 1px 6px;
+    border-width: 0px;
+    border-style: none;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+
+}
+.botton:hover{
+
+    width: 200px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(0, 110, 68, 0.2);
+    color: #fff;
+    font-size: 14px;
+    border-bottom: none;
+    border-radius: 50px;
+    padding: 1px 6px;
+    border-width: 0px;
+    border-style: none;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+
+}
+
+#section4 h4{
+    color: blanchedalmond;
+    font-size: 30px;
+    text-align: center;
+}
+
+.dev{
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: #1d0003;
+}
+
+.bottonS{
+    margin-top: 5px;
+    margin-left: 55px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(61, 61, 61, 0.2);
+    color: #fff;
+    font-size: 14px;
+    border-bottom: none;
+    border-radius: 50px;
+    padding: 1px 6px;
+    border-width: 0px;
+    border-style: none;
+    
+
+}
+.bottonS:hover{
+   
+    background-color: rgba(0, 110, 68, 0.2);
+    
+
+}
+
+
+.icons{
+    max-width: 50px;
+    max-height: 50px;
+    margin-top: 5px;
+    padding: 1px;
+}
+
+
+#section2 h4{
+    color: blanchedalmond;
+    font-size: 30px;
+    text-align: center;
+}
+
+#section3 h4{
+    color: blanchedalmond;
+    font-size: 30px;
+    text-align: center;
+}
