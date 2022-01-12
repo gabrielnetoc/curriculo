@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&family=Ubuntu&display=swap');
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #00AEFF;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(242.75deg, #171717 0%, rgba(23, 23, 23, 0.92) 94.88%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.logo{
+    width: 184px;
+    height: 50px;
+    
+}
+
+.nav-menu{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.nav-menu-item{
+    font-family: 'Ubuntu', sans-serif;
+    color:#00AEFF;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principal-escrito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+
+}
+
+.titulo-principal{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: #00AEFF;
+}
+
+.subtitulo-principal{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font: 16px;
+    color: white;
+}
+
+.button-principal:hover{
+    background-color: rgb(0, 174, 255, 0.50);
+
+}
+.button-principal{
+    margin-top: 50px;
+    background-color: rgb(0, 174, 255);
+    width: 150px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+
+.img-principal{
+    height: 500x;
+    width: 500px;
+}
+
+.section-sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 35px;
+
+}
+
+.title-me{
+    border-top: 0.4px solid #00AEFF;
+    padding-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    color:#00AEFF;
+    font-weight: 400;
+    font-size: 40px;
+    
+}
+
+.subtitle-me{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+
+}
+
+.roda-pe{
+    padding: 32px;
+
+}
+
+.dev-footer{
+    margin-left: 480px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    
+    
+}
+
+.nome-footer{
+    color: #00AEFF;
+}
+
+
+
+
+
+
