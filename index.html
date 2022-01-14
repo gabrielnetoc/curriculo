@@ -2,26 +2,48 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="assets/favicon.png">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Olá, meu nome é Gabriel Neto. Sou desenvolvedor front-end e Ui Designer, meus hobbies incluem desenvolver front web e mobile">
-    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
     <title>Gabriel Neto</title>
 </head>
 <body>
 
-    <header class="cabecalho">
-
-        <img class="logo" src="assets/logo.svg" alt="Logo G.Neto">
-        <nav class="nav-menu">
-            <a href="#sobre" class="nav-menu-item">Quem sou</a>
-            <a class="nav-menu-item">Projetos</a>
-            <a class="nav-menu-item">Serviços</a>
-            <a class="nav-menu-item">Conhecimentos</a>
-        </nav>
-
-    </header>
+   <!--HEADER-->
+    
+   <div id="header">
+       <div class="container">
+   <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+          <img src="assets/img/logo.svg" class="img-fluid" width="184px" height="50px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Quem Sou</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ">Conhecimentos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+</div>
 
     <main class="conteudo">
 
@@ -32,7 +54,7 @@
                 <h2 class="subtitulo-principal">Dev Front End e UI Designer</h2>
                 <a href="https://www.instagram.com/gabrielnetoc.dev/" target="_black" ><button class="button-principal">Instagram</button></a>
             </div>
-            <img class="img-principal" src="assets//developer.svg">
+            <img class="img-principal" src="assets/img/developer.svg">
         </section>
         <section class="section-sobre" id="sobre">
             <h1 class="title-me">Sobre mim</h1><br>
@@ -41,6 +63,7 @@
             <h2 class="subtitle-me">Minhas linguagens favoritas são: em Mobile gosto de Dart/Flutter e Web estou estudando ReactJS</h2>
             <div>
             <div>
+            
                
             </div>
             </div>
@@ -51,6 +74,7 @@
 
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <footer class="roda-pe">
 
         <h2 class="dev-footer">desenvolvido por <span class="nome-footer">Gabriel Neto</span></h2>
