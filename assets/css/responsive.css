@@ -5,3 +5,11 @@
     }
     
 }
+
+@media (max-width: 800px) {
+
+    .img-principal{
+        display: none;
+    }
+    
+}
