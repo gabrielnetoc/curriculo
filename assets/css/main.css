@@ -7,7 +7,7 @@
 
 
 ::-webkit-scrollbar{
-    width: 5px;
+    width: 0px;
 }
 
 ::-webkit-scrollbar-track{
@@ -74,11 +74,9 @@ body{
 }
 
 .footer{
-    margin-top: 1.2rem;
+    align-items: flex-end;
+    
 
-}
-.icons{
-    align-items: end;
 }
 
 .titulo-principal{
